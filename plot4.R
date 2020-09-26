@@ -44,7 +44,7 @@ with(powerconsumption, lines(DateTime, Sub_metering_2, col = "red"))
 with(powerconsumption, lines(DateTime, Sub_metering_3, col = "blue"))
 legend("topright", lty = 1,  col = c("black", "red", "blue"), legend = c("Sub metering 1", "Sub metering 2", "Sub metering 3"), bty = "n")
 
-with(powerconsumption, plot(DateTime, Global_reactive_power, type = "l", xlab = "DateTime", ylab = "Global Active Power"))
+with(powerconsumption, plot(DateTime, Global_reactive_power, type = "l", xlab = "DateTime", ylab = "Global Reactive Power"))
 dev.off()
 
 #Restore Default Parameters
